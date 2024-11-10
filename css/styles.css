@@ -825,7 +825,7 @@ input{
 @media screen and (max-width: 576px) {
   .nav__menu{
     width: 10vw;
-    padding: 2.75rem;
+    padding: 4.75rem;
   }
 
   .home__img{

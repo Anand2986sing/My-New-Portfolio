@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--=============== UNICONS ===============-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ug6w5gs4__PpVrwzM",
+      });
+   })();
+</script>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header scroll-header" id="header">
+    <nav class="nav  container">
+      <a href="#home" class="nav__logo">A<span>n</span>and</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link" id="navbar">Home</a> <li>
+        
+          <li><a href="#about" class="nav__link " id="navbar">About</a> <li>
+
+          <li><a href="#services" class="nav__link " id="navbar">Services</a> <li>
+          
+          <li><a href="#portfolio" class="nav__link " id="navbar">Portfolio</a> <li>
+           
+          <li><a href="#contact" class="nav__link " id="navbar">Contact</a> <li>
+          
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="uil uil-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__socials">
+        <a href="https://www.instagram.com/anand_.96?igsh=Mnl4dGl1czd1ajE3" target="_blank" class="nav__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/anand-singh96/" target="_blank" class="nav__social-link">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/Anand2986sing" target="_blank" class="nav__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+
+        <a href="https://youtube.com/@techfashion_vlog?si=aOmmk3_9Lcx3AS_5" target="_blank" class="nav__social-link">
+          <i class="uil uil-youtube"></i>
+        </a>
+
+
+      </div>
+
+      <div class="nav__btns">
+        <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__subtitle">Welcome to my portfolio!</span>
+          <h1 class="home__title"> <p>Hi, I'm Anand</p><span>
+           <div id="element"><span></span></span></div></h1>
+        </div>
+
+        <img src="images/home.jpg" alt="image are not loading" class="home__img">
+
+
+      </div>
+    </section>
+
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="images/about.jpg" alt="Someting went wrong!" class="about__img">
+
+        <div class="about__content">
+          <h2 class="section__title to__align" id="to__align"> <span>About Me</span></h2>
+          <br>
+          <br>
+          <br>
+          <p class="about__description">
+            I want to use my love for technology and problem solving in a lively workplace. I hope to help create
+            new and better ways of doing things in computer science and engineering. I'll keep learning about
+            new technologies and work with a team to solve tough problems and achieve important goals.
+          </p>
+          <!-- check first 5 lines here if any mistake will occure -->
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active " data-target="#skills">Main Skills</span>
+            <span class="tabs__btn" data-target="#award">Award</span>
+            <span class="tabs__btn" data-target="#experience">Experience</span>
+            <span class="tabs__btn" data-target="#education">Education & certification</span>
+          </div>
+
+          <!-- Main skill  -->
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Frontend Development :</span> --responsive website
+                  <span> Html, CSS, JavaScript, Bootstrap, plugins....</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Business Orientation:</span> --Startup Experience
+                  <span> Skilled in managing resources, understanding customer needs, and strategizing for brand growth.</span>
+
+                </p>
+
+                <p class="tabs__description">
+                  <span>Technical Skill:</span> --won 3 Hackathons
+                  <span> Java, Python, Html, CSS, Oops, JavaScript, Bootstrap, plugins.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Interpersonal Skill</span>
+                  <span> TeamWork, Leadership, Communication, Resource Management.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Content Creation & Digital Influence:</span> 
+                  <span> Experienced YouTuber with a following of 3,000+ on TechFashion.</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Hackathons, Competitions & Event Management:</span> --experience with 30+ events
+                  <span> Led and organized 30+ events, building teamwork, creativity, and impact.</span>
+                </p>
+
+              </div>
+            </div>
+
+            <!-- Award  -->
+            <div class="tabs__item " data-content id="award">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Innovation Display</span> --1st position 
+                  <span>2021-2022</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>World Environment Day</span> --1st position 
+                  <span>2021-2022</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>CGC-J Hackathon</span> --4th position
+                  <span>2021-2022</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Hindi Speech Competition</span> --1st position
+                  <span>2019-2020</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>Hindi Speech</span> --3rd position
+                  <span>2018-2019</span>
+                </p>
+
+
+              </div>
+            </div>
+
+            <!-- experience section  -->
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid ">
+                <p class="tabs__description ">
+                  <span>Frontend Developer Intern</span> --A2it [30 jun 2023 - 31 july 2023]
+                  <span>Built responsive interfaces, completed innovative projects in frontend.</span>
+                </p>
+
+                <p class="tabs__description ">
+                  <span>Co-Founder</span> --Kulhad Cafeteria | 1 year [2023-2024]
+                  <span>Managed operations, finances, and teams, enhancing customer retention and business strategy.</span>
+                </p>
+
+                <p class="tabs__description ">
+                  <span>SAC Community </span> --Event management | 3 year [2021-2024]
+                  <span>Planned and led college events, boosting communication, leadership, and coordination skills.</span>
+                </p>
+
+                <p class="tabs__description ">
+                  <span>Content Creator & Digital Marketing Enthusiast </span> --Social Media
+                  <span>Produced content on tech, events, boosted engagement with strategic marketing.</span>
+                </p>
+              </div>
+            </div>
+            <!-- Education and certificate section  -->
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>Bachelor of Technology (B.Tech) in Computer Science and Engineering</span> 
+                  <span> Chandigarh Engineering College [2025]</span>
+                </p>
+
+                <p class="tabs__description">
+                  <span>XII (BSEB) | S.P.S College, Bihar [2021] </span> 
+                </p>
+
+                <p class="tabs__description">
+                  <span>X (BSEB) | S.R.I.S High School Narharpur [2019]</span>
+                </p>
+
+
+                <p class="tabs__description">
+                  <span>Frontend Development Internship <a href="https://drive.google.com/file/d/1CWWFFVpDrU4gnYzEXWzOJFZyuYvhuhmc/view?usp=sharing">Certification</a></span>
+                  <!-- <span> 20025</span> -->
+                </p>
+
+                <p class="tabs__description">
+                  <span>UTSAV [Event head] <a href="https://drive.google.com/file/d/1ruUHqXKBg4XBUCXQoEQJBbK-7asIMcMm/view?usp=sharing">Certification</a></span>
+                  <!-- <span> 20025</span> -->
+                </p>
+
+                <p class="tabs__description">
+                  <span>Innovation Display <a href="https://drive.google.com/file/d/1_Fxbgwv3RUFH9ej6bNOfSwoNKYrtyaco/view?usp=sharing" id="certificate-link">--1st Place Certificate</a></span> 
+                  <!-- <span> 20025</span> -->
+                </p>
+                
+                <p class="tabs__description">
+                  <span>World Environment Day <a href="https://drive.google.com/drive/folders/1T4BlgtqJTr2ItP67mxGbYDIjf18_iEsC?usp=sharing">--1st Place Certificate </a></span>
+                  <!-- <span> 20025</span> -->
+                </p>
+                
+                <p class="tabs__description">
+                  <span>CEC-J Hackathon <a href="https://drive.google.com/drive/folders/10ZAcwHmef1YgXFiVEhxR0Ok5CtDEFQqa?usp=sharing" id="certificate-link">--4th Place Certificate</a></span> 
+                  <!-- <span> 20025</span> -->
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services">
+      <h2 class="section__title"> My Awsome Service </h2>
+      <br><br>
+      <!-- <p class="section__description"></p> -->
+
+
+      <!-- -----1---- -->
+      <div class="services__container container grid">
+        <div class="services__item">
+          <i class="uil uil-monitor services__icon"></i>
+          <!-- <i class="uil uil-rss-interface services__icon"></i> -->
+          <h3 class="services__title">Frontend Development</h3>
+          <p class="services__description">Specializing in HTML, CSS, JavaScript, Bootstrap , Python and Java. I develop user-friendly, visually engaging websites. I bring ideas to life with clean and responsive design tailored to modern standards.</p>
+
+        </div>
+
+        <!-- -----2---- -->
+        <!-- <div class="services__container container grid"> -->
+        <div class="services__item">
+          <i class="uil uil-youtube services__icon"></i>
+          <h3 class="services__title">YouTube Content Creation</h3>
+          <p class="services__description">As an experienced YouTuber, I create compelling video content on tech and non-tech both tutorials, event coverage. My channels focus on delivering insights to help viewers enhance their skills and knowledge.</p>
+
+        </div>
+
+        <!-- -----3---- -->
+        <!-- <div class="services__container container grid"> -->
+        <div class="services__item">
+          <!-- <i class="uil uil-rss-interface services__icon"></i> -->
+          <i class="uil uil-store services__icon"></i>
+          <h3 class="services__title">Business & Startup </h3>
+          <p class="services__description">From my experience as a cofounder and my interest in startups, I offer insights on brand development, launch strategies, and growth tactics for small businesses. Let’s turn your startup ideas into actionable steps for success.
+          </p>
+        </div>
+
+        <!-- -----4---- -->
+        <!-- <div class="services__container container grid"> -->
+        <div class="services__item">
+          <!-- <i class="uil uil-rss-interface services__icon"></i> -->
+          <i class="uil uil-linkedin services__icon"></i>
+
+          <h3 class="services__title">Resume & LinkedIn Optimization</h3>
+          <p class="services__description">A strong profile always makes a big difference. I assist students and early career professionals in crafting standout resumes. LinkedIn profiles and portfolio that highlight their strengths and appeal to recruiters.</p>
+
+        </div>
+
+        <!-- -----5---- -->
+        <!-- <div class="services__container container grid"> -->
+        <div class="services__item">
+          <i class="uil uil-brackets-curly services__icon"></i>
+
+          <h3 class="services__title">Project Development & Showcasing</h3>
+          <p class="services__description">I develop functional projects like Facial Recognition and utility apps to highlight coding skills. Using JavaScript, HTML, and CSS, these projects add interactive elements, making them ideal for showcasing practical web development expertise</p>
+
+        </div>
+
+        <!-- -----6---- -->
+        <!-- <div class="services__container container grid"> -->
+        <div class="services__item">
+          <i class="uil uil-align-center services__icon"></i>
+
+          <h3 class="services__title">Digital Content for Brands</h3>
+          <p class="services__description">I partner with brands to create digital content to engage audiences. With expertise in brand promotion on platforms like YouTube, I help elevate brand presence and connect with potential customers.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">My Project's</h2>
+      <p class="section__description">These are some projects I completed during my college years, reflecting my learning and hands-on experience.</p>
+
+      <div class="portfolio__container container grid">
+        <div class="badka__baksa">
+        <div class="portfolio__item">
+          <img src="images/portfolio-4.jpg" alt="image not loading" class="portfolio__img">
+          <!-- 1 -->
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Python Development</p>
+            <h3 class="portfolio__title">Facial Recognition</h3>
+            <p class="portfolio__description">Developed Python based facial-recognition attendance system using OpenCV.</p>
+          </div>
+          
+        </div>
+
+        <div class="project__redirect-button">
+          <a href="#" class="button__for-redirect"> <i class="uil uil-arrow-up-right"></i> Visit Project</a>
+        </div>
+      </div>
+        <!-- 2  -->
+         <div class="badka__baksa">
+        <div class="portfolio__item">
+          <img src="images/portfolio-3.png" alt="image not loading" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Web Development</p>
+            <h3 class="portfolio__title">3D Motion-Can</h3>
+            <p class="portfolio__description">3D motion-can: A project built with HTML and CSS to demonstrate CSS animations.
+            </p>
+          </div>
+        </div>
+        <div class="project__redirect-button">
+          <a href="https://github.com/Anand2986sing/3Dmotion-can" class="button__for-redirect"><i class="uil uil-arrow-up-right"></i> Visit Project</a>
+        </div>
+         </div>
+        <!-- 3  -->
+         <div class="badka__baksa">
+        <div class="portfolio__item">
+          <img src="images/portfolio5-1.png" alt="image not loading" class="portfolio__img">
+          <img src="images/portfolio5-2.png" alt="image not loading" class="portfolio__img">
+          <img src="images/portfolio5-3.png" alt="image not loading" class="portfolio__img">
+          
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Web Development</p>
+            <h3 class="portfolio__title">Amazon web Clone</h3>
+            <p class="portfolio__description">Created a Amazon web clone using HTML, CSS, and JavaScript, replicating product listings .</p>
+          </div>
+        </div>
+        <div class="project__redirect-button project__redirect-button-3">
+          <a href="https://github.com/Anand2986sing/Amazone-clone" class="button__for-redirect"><i class="uil uil-arrow-up-right"></i> Visit Project</a>
+        </div>
+         </div>
+        <!-- 4  -->
+         <div class="badka__baksa">
+        <div class="portfolio__item">
+          <img src="images/portfolio-1.jpg" alt="image not loading" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Web Development</p>
+            <h3 class="portfolio__title">Calculator</h3>
+            <p class="portfolio__description">Calculator: A project showcasing JavaScript integration with CSS to build a functional calculator.
+            </p>
+          </div>
+        </div>
+        <div class="project__redirect-button">
+          <a href="https://github.com/Anand2986sing/calculator" class="button__for-redirect"><i class="uil uil-arrow-up-right"></i> Visit Project</a>
+        </div>
+        </div>
+        <!-- 5  -->
+         <div class="badka__baksa">
+        <div class="portfolio__item">
+          <img src="images/portfolio-2.jpeg" alt="image not loading" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Web Development</p>
+            <h3 class="portfolio__title">Library Management System</h3>
+            <p class="portfolio__description">Built a responsive system using HTML, CSS, and Bootstrap to manage library resources, allowing users to add books along with author names and titles efficiently  
+            </p>
+          </div>
+        </div>
+        <div class="project__redirect-button">
+          <a href="https://github.com/Anand2986sing/library-management-system" class="button__for-redirect"><i class="uil uil-arrow-up-right"></i> Visit Project</a>
+        </div>
+        </div>
+        <!-- 6  -->
+         <div class="badka__baksa">
+        <div class="portfolio__item">
+          <img src="images/portfolio-6-1.png" alt="image not loading" class="portfolio__img">
+          <img src="images/portfolio-6-2.png" alt="image not loading" class="portfolio__img">
+          <img src="images/portfolio-6-3.png" alt="image not loading" class="portfolio__img">
+
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle ">Web Development</p>
+            <h3 class="portfolio__title ">Gym Studio</h3>
+            <p class="portfolio__description">Developed "Gym Studio," a comprehensive website focusing on facilitating, communication and scheduling for a fictional design studio.</p>
+          </div>
+        </div>
+        <div class="project__redirect-button project__redirect-button-6">
+          <a href="https://github.com/Anand2986sing/Gym-stduio" class="button__for-redirect"><i class="uil uil-arrow-up-right"></i> Visit Project</a>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class=" contact__content">
+
+          <h2 id="to__align">Hire me</h2>
+          <p class="contact__description">
+            I am available for freelance / FullTime work. Connect with me via phone:
+            <a href="tel: 06200789490">+91 6200789490</a> or email <a href="mailto:kumaranand00163@gmail.com"> kumaranand00163@gmail.com</a>
+          </p>
+<!-- Name -->
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="your name *" class="contact__input" id="contact-name"> 
+            </div>
+<!-- Email -->
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="your e-mail" class="contact__input" id="contact-email"> 
+            </div>
+<!-- Subject -->
+            <div class="contact__form-input">
+              <input type="text" name="subject" placeholder="write a Subject" class="contact__input" id="contact-subject"> 
+            </div>
+<!-- Message -->
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+            </div>
+
+            <input type="submit" onclick="sendEmail()" value= "submit" class="btn">
+
+            <p class="error__message" id="error-message"></p>
+          </form>
+        </div>
+
+        <img src="images/contact.jpg" alt="image are not loading" class="contact__img">
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">A<span>n</span>and</a>
+
+      <div class="footer__socials">
+        <a href="https://www.instagram.com/anand_.96?igsh=Mnl4dGl1czd1ajE3" target="_blank" class="footer__social-link">
+          <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/anand-singh96/" target="_blank" class="footer__social-link">
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/Anand2986sing" target="_blank" class="footer__social-link">
+          <i class="uil uil-github"></i>
+        </a>
+
+        <a href="https://youtube.com/@techfashion_vlog?si=aOmmk3_9Lcx3AS_5" target="_blank" class="footer__social-link">
+          <i class="uil uil-youtube"></i>
+        </a>
+
+
+        
+      </div>
+      <p class="footer__copyright"> &copy; 2023. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-angle-up scrollup__icon"></i>
+  </a>
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="js/main.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element ', {
+      strings: ['<i>FreeLancer</i>', '<i>Youtuber</i>','web <i>developer</>'],
+      typeSpeed: 70,
+    });
+  </script>
+</body>
+
+</html>
